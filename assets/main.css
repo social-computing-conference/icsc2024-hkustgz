@@ -93,6 +93,14 @@ p {
     text-align: left;
 }
 
+.blue {
+    color: #52739e;
+}
+
+.justify {
+    text-align: justify;
+}
+
 li a,
 p a {
     text-decoration: underline;
