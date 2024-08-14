@@ -442,3 +442,8 @@ footer {
 .styled-table tr:hover {
     background-color: #f1f1f1;
 }
+
+strong {
+    font-weight: bold;
+    /* 确保强制设置为加粗 */
+}
