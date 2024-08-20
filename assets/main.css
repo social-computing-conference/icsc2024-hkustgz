@@ -95,6 +95,7 @@ p {
 
 .blue {
     color: #52739e;
+    text-shadow: 0px 0px 4px #0000002c;
 }
 
 .justify {
@@ -215,7 +216,6 @@ table.navigation {
 td.navigation {
     font-size: 1.67em;
     white-space: nowrap;
-    width: 20%;
     text-align: center;
     vertical-align: middle;
     padding: 0px 0px 0px 0px;
@@ -272,7 +272,7 @@ td.title-special {
     padding: 4px 12px 4px 4px;
     width: 90%;
     vertical-align: top;
-    font-size: 1.67em;
+    font-size: 1.5em;
     color: #52739e;
     height: 32px;
     font-family: 'Roboto Slab', serif;
@@ -289,7 +289,8 @@ td.speaker {
 td.abstract {
     padding: 4px 12px 12px 4px;
     font-size: 1em;
-    max-height: 999999px
+    max-height: 999999px;
+    text-align: justify;
 }
 
 td.abstract img {
@@ -381,6 +382,7 @@ footer {
     }
 }
 
+
 /* schedule table */
 .schedule-table {
     width: 100%;
@@ -397,6 +399,8 @@ footer {
 
 .schedule-table th {
     background-color: #f2f2f2;
+    color: #813c54;
+    text-shadow: 1px 1px 2px #d0d0d0
 }
 
 .schedule-table tr:nth-child(even) {
@@ -416,10 +420,12 @@ footer {
     text-decoration: underline;
 }
 
+
 .styled-table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
+    white-space: nowrap;
 }
 
 .styled-table th,
@@ -431,6 +437,8 @@ footer {
 
 .styled-table th {
     background-color: #f2f2f2;
+    color: #813c54;
+    text-shadow: 1px 1px 2px #d0d0d0
 }
 
 .styled-table tr:nth-child(even) {
