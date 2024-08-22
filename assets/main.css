@@ -210,12 +210,13 @@ td {
 
 /* Navigation Links (Home, Registration, etc) */
 table.navigation {
-    width: 900px;
+    width: 1000px;
 }
 
 td.navigation {
     font-size: 1.67em;
     white-space: nowrap;
+    width: auto;
     text-align: center;
     vertical-align: middle;
     padding: 0px 0px 0px 0px;
@@ -454,34 +455,34 @@ strong {
     /* 确保强制设置为加粗 */
 }
 
-.bio-container{
+.bio-container {
     display: flex;
     align-items: center;
     margin: 5px 0;
 }
 
-.bio-image{
+.bio-image {
     flex: 0 0 150px;
     margin-right: 20px;
 }
 
-.bio-image img{
+.bio-image img {
     width: 100%;
     height: auto;
     border-radius: 50%;
 }
 
 
-.bio-details{
-    flex:1;
+.bio-details {
+    flex: 1;
 }
 
-.bio-details h2{
+.bio-details h2 {
     font-size: 1.5em;
     line-height: 1.2;
 }
 
-.bio-details .institution{
+.bio-details .institution {
     font-style: italic;
     font-size: 1em;
     font-weight: bold;
@@ -489,6 +490,6 @@ strong {
     margin-bottom: 5px;
 }
 
-.bio-details p{
+.bio-details p {
     line-height: 1.4;
-} 
+}
