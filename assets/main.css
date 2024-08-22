@@ -383,6 +383,18 @@ footer {
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .navigation td {
+        font-size: 1.2em;
+        padding: 10px 5px; /* Reduce padding for smaller screens */
+    }
+
+    .navigation {
+        width: 100%; /* Ensure the table fits within the screen width */
+    }
+}
+
+
 
 /* schedule table */
 .schedule-table {
