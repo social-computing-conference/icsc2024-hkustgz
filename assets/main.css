@@ -453,3 +453,42 @@ strong {
     font-weight: bold;
     /* 确保强制设置为加粗 */
 }
+
+.bio-container{
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.bio-image{
+    flex: 0 0 150px;
+    margin-right: 20px;
+}
+
+.bio-image img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+
+.bio-details{
+    flex:1;
+}
+
+.bio-details h2{
+    font-size: 1.5em;
+    line-height: 1.2;
+}
+
+.bio-details .institution{
+    font-style: italic;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.bio-details p{
+    line-height: 1.4;
+} 
