@@ -455,9 +455,9 @@ footer {
         font-size: 2em;
     }
 
-    p{
+    p, ul{
         line-height: 1.2;
-        font-size: 1em;
+        font-size: 1.5em;
         width: auto;
     }
 
