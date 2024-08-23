@@ -87,10 +87,12 @@ h4 {
 
 p {
     list-style: none;
-    margin: 24px auto 24px auto;
+    margin: 18px 24px;
     padding: 0px;
     width: 900px;
     text-align: justify;
+    font-size: 1.33em;
+    line-height: 1.4;
 }
 
 .blue {
@@ -106,14 +108,17 @@ li a,
 p a {
     text-decoration: underline;
     text-decoration-color: #b8860b;
+    font-size: inherit;
 }
 
 ul {
     list-style: none;
-    margin: 24px auto 24px auto;
+    margin: 18px 24px;
     padding: 0px;
-    width: 800px;
+    width: 1000px;
     text-align: left;
+    font-size: 1.33em;
+    line-height: 1.4;
 }
 
 ul li {
@@ -129,6 +134,7 @@ em {
 b,
 strong {
     font-weight: bold;
+    font-size: inherit;
 }
 
 sup {
@@ -216,10 +222,8 @@ table.navigation {
 td.navigation {
     font-size: 1.67em;
     white-space: nowrap;
-    width: auto;
     text-align: center;
     vertical-align: middle;
-    padding: 0px 0px 0px 0px;
 }
 
 /* Sponsor Images */
@@ -283,13 +287,13 @@ td.title-special {
 td.speaker {
     padding: 4px 12px 4px 4px;
     font-style: italic;
-    font-size: 1em;
+    font-size: 1.2em;
     max-height: 999999px
 }
 
 td.abstract {
     padding: 4px 12px 12px 4px;
-    font-size: 1em;
+    font-size: 1.2em;
     max-height: 999999px;
     text-align: justify;
 }
@@ -304,22 +308,6 @@ table.plenary {
     background: #ffffff;
 }
 
-/* Registration and Directions iframes and Images */
-iframe.registration {
-    display: block;
-    margin: 1em auto 2em auto;
-    width: 700px;
-    height: 1400px;
-    border: none;
-}
-
-iframe.directions {
-    display: block;
-    margin: 1em auto 2em auto;
-    width: 800px;
-    height: 400px;
-    border: none;
-}
 
 img.center {
     display: block;
@@ -327,22 +315,8 @@ img.center {
     margin: 1em auto 2em auto;
 }
 
-/* Flyer Images */
-table.flyers {
-    width: 800px;
-}
 
-td.flyer {
-    white-space: nowrap;
-    width: 50%;
-    text-align: center;
-    vertical-align: middle;
-    padding: 0px 0px 0px 0px;
-}
 
-td.sponsor img {
-    width: 100%
-}
 
 footer {
     font-size: 0.875em;
@@ -350,56 +324,13 @@ footer {
     text-align: center;
 }
 
-/* My hacky way of making the site mobile-friendly */
-@media only screen and (max-width: 1100px) {
-    h2 {
-        font-size: 3.00em;
-    }
-
-    p {
-        font-size: 1.5em;
-        line-height: 1.5em;
-    }
-
-    th,
-    td,
-    tr {
-        font-size: 1.5em;
-        line-height: 1.5em;
-    }
-
-    td.date {
-        font-size: 1em;
-        padding-top: 0.5em;
-    }
-
-    td.navigation {
-        font-size: 1.5em;
-        padding: 0px 20px 0px 20px;
-    }
-
-    table.footer {
-        font-size: 0.33em;
-    }
-    .navigation {
-        width: 100%; 
-    }
-    .bio-container {
-        width: 100%; 
-        font-size: 1.5em;
-        line-height: 1.5em;
-    }
-}
-
-
-
-
 
 /* schedule table */
 .schedule-table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
+    font-size: 1.2em;
 }
 
 .schedule-table th,
@@ -414,6 +345,15 @@ footer {
     color: #813c54;
     text-shadow: 1px 1px 2px #d0d0d0
 }
+
+.schedule-table th b{
+    font-size: inherit;
+}
+
+.schedule-table th b.blue{
+    font-size: inherit;
+}
+
 
 .schedule-table tr:nth-child(even) {
     background-color: #f9f9f9;
@@ -461,16 +401,13 @@ footer {
     background-color: #f1f1f1;
 }
 
-strong {
-    font-weight: bold;
-    /* 确保强制设置为加粗 */
-}
 
 .bio-container {
     display: flex;
-    align-items: center;
-    margin: 5px 0;
-    width: 900px;
+    margin: 0 24px;
+    max-width: 900px;
+    padding: 15px;
+    box-sizing: border-box;
 }
 
 .bio-image {
@@ -487,21 +424,106 @@ strong {
 
 .bio-details {
     flex: 1;
+    line-height: 1.4;
 }
 
 .bio-details h2 {
-    font-size: 1.5em;
+    font-size: 1.67em;
     line-height: 1.2;
 }
 
 .bio-details .institution {
     font-style: italic;
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: bold;
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
 .bio-details p {
-    line-height: 1.4;
+    font-size: 1.2em;
+    line-height: 1.2;
+    max-width: 652px;
 }
+
+
+@media only screen and (max-width: 1100px) {
+    h2 {
+        font-size: 2.2em;
+    }
+
+    h3{
+        font-size: 2em;
+    }
+
+    p{
+        line-height: 1.2;
+        font-size: 1em;
+        width: auto;
+    }
+
+    .schedule-table th,
+    .schedule-table td{
+        font-size: 1em;
+    }
+    
+    .schedule-table b{
+        font-size: inherit;
+    }
+
+
+
+    td.date {
+        font-size: 1.5em;
+    }
+
+    td.title{
+        font-size: 1.5em;
+    }
+
+    td.title-special{
+        font-size: 1.5em;
+    }
+
+
+    li a,
+    p a {
+    font-size: inherit;
+    }
+
+    th,
+    td,
+    tr {
+        font-size: 1em;
+        line-height: 1.5em;
+    }
+
+    td b,
+    td b.blue{
+        font-size: inherit;
+    }
+
+    td.speaker{
+        font-size: 1.3em;
+    }
+
+    td.abstract{
+        font-size: 1.3em;
+    }
+
+
+
+    td.navigation {
+        font-size: 1.5em;
+
+    }
+
+    table.footer {
+        font-size: 0.33em;
+    }
+
+    .styled-table td b.blue{
+        font-size:inherit;
+    }
+}
+
