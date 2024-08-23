@@ -254,7 +254,7 @@ td.room {
 
 td.date {
     white-space: nowrap;
-    width: 130px;
+    width: 150px;
     text-align: right;
     vertical-align: top;
     font-size: 1.3em;
@@ -345,11 +345,11 @@ footer {
     text-shadow: 1px 1px 2px #d0d0d0
 }
 
-.schedule-table th b{
+.schedule-table th b {
     font-size: inherit;
 }
 
-.schedule-table th b.blue{
+.schedule-table th b.blue {
     font-size: inherit;
 }
 
@@ -451,22 +451,23 @@ footer {
         font-size: 2.2em;
     }
 
-    h3{
+    h3 {
         font-size: 2em;
     }
 
-    p, ul{
+    p,
+    ul {
         line-height: 1.2;
         font-size: 1.5em;
         width: auto;
     }
 
     .schedule-table th,
-    .schedule-table td{
+    .schedule-table td {
         font-size: 1em;
     }
-    
-    .schedule-table b{
+
+    .schedule-table b {
         font-size: inherit;
     }
 
@@ -476,18 +477,18 @@ footer {
         font-size: 1.5em;
     }
 
-    td.title{
+    td.title {
         font-size: 1.5em;
     }
 
-    td.title-special{
+    td.title-special {
         font-size: 1.5em;
     }
 
 
     li a,
     p a {
-    font-size: inherit;
+        font-size: inherit;
     }
 
     th,
@@ -498,15 +499,15 @@ footer {
     }
 
     td b,
-    td b.blue{
+    td b.blue {
         font-size: inherit;
     }
 
-    td.speaker{
+    td.speaker {
         font-size: 1.3em;
     }
 
-    td.abstract{
+    td.abstract {
         font-size: 1.3em;
     }
 
@@ -521,8 +522,7 @@ footer {
         font-size: 0.33em;
     }
 
-    .styled-table td b.blue{
-        font-size:inherit;
+    .styled-table td b.blue {
+        font-size: inherit;
     }
 }
-
