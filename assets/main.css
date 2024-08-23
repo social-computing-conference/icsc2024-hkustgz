@@ -88,8 +88,7 @@ h4 {
 p {
     list-style: none;
     margin: 18px 24px;
-    padding: 0px;
-    width: 1000px;
+    width: 952px;
     text-align: justify;
     font-size: 1.33em;
     line-height: 1.4;
@@ -327,7 +326,7 @@ footer {
 
 /* schedule table */
 .schedule-table {
-    width: 100%;
+    width: 1000px;
     border-collapse: collapse;
     margin: 20px 0;
     font-size: 1.2em;
@@ -374,7 +373,7 @@ footer {
 
 
 .styled-table {
-    width: 100%;
+    width: 1000px;
     border-collapse: collapse;
     margin-top: 20px;
     white-space: nowrap;
@@ -405,7 +404,7 @@ footer {
 .bio-container {
     display: flex;
     margin: 0 24px;
-    max-width: 900px;
+    max-width: 1000px;
     padding: 15px;
     box-sizing: border-box;
 }
@@ -443,7 +442,7 @@ footer {
 .bio-details p {
     font-size: 1.2em;
     line-height: 1.2;
-    max-width: 652px;
+    max-width: 700px;
 }
 
 
