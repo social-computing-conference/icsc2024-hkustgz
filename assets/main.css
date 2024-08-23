@@ -470,6 +470,7 @@ strong {
     display: flex;
     align-items: center;
     margin: 5px 0;
+    width: 900px;
 }
 
 .bio-image {
